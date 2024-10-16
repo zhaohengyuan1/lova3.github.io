@@ -1,6 +1,6 @@
 # LOVA3
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code from the [Nerfies website](https://nerfies.github.io).
 
 
 # Website License

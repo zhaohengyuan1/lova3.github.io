@@ -136,8 +136,18 @@
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
-                  <span>Data</span>
+                  <span>Training Dataset</span>
                   </a>
+              </span>
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/hhenryz/EvalQABench"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>EvalQABench</span>
+                  </a>
+              </span>
             </div>
 
           </div>
@@ -299,14 +309,23 @@
     <div class="column is-four-fifths">
       <h2 class="title is-4">EvalQABench</h2>
       <p style="text-align: left;">we introduce a new benchmark, EvalQABench, to address the problem of assessing visual question-answering data.
-        Moreover, instead of merely labeling each VQA pair with "Yes/No", we advocate for integrating feedback into each instance, an important aspect rarely seen in prior multimodal benchmarks.</p>
+        Moreover, instead of merely labeling each VQA pair with "Yes/No", we advocate for integrating feedback into each instance, an important 
+        aspect rarely seen in prior multimodal benchmarks.
+        <br>
+        In total, EvalQABench comprise 64,000
+        training samples (split evenly between positive and negative samples) and 5,000
+        validation and testing samples.
+      </p>
+      <br>
       <br>
       <h2 class="title is-4">Selected 9 representative data types</h2>
       <img src="assets/evalqa_visual.png" alt="">
       <p style="text-align: left;"> (1) The question type of our EvalQABench is diverse. <br> (2) All candidate samples for data creation are from VQAv2 training set. </p>
       <br>
+      <br>
       <h2 class="title is-4">Results of EvalQABench</h2>
       <img src="assets/evalqabenchresult.png" alt="" style="width: 100%">
+      <br>
       <br>
       <h2 class="title is-4">Data Statistic</h2>
       <img src="assets/evalqa_datastatistic.png" alt="" style="width: 100%">
